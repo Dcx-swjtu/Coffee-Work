@@ -1,23 +1,6 @@
 <div align="center">
 
-# 🌉 Hermes Code Bridge
-
-<p>
-  <img src="https://img.shields.io/badge/Hermes-Plugin%20%2B%20Skill-6C5CE7?style=for-the-badge" alt="Hermes Plugin + Skill">
-  <img src="https://img.shields.io/badge/Local-CLI%20Coding%20Agents-2F9E44?style=for-the-badge" alt="Local CLI Coding Agents">
-  <img src="https://img.shields.io/badge/Codex%20%7C%20Kimi%20Code%20%7C%20Claude%20Code%20%7C%20OpenCode%20%7C%20Gemini-blue?style=for-the-badge" alt="Supported CLIs">
-</p>
-
-<p>
-  <a href="#-coffee-break-demo">Coffee demo</a> ·
-  <a href="#-install-in-10-seconds">Install</a> ·
-  <a href="#-what-you-can-ask-it-to-do">Use cases</a> ·
-  <a href="#-how-it-works">How it works</a> ·
-  <a href="#-usage">Usage</a> ·
-  <a href="README_zh.md">中文</a>
-</p>
-
-**English** | [中文](README_zh.md)
+# Coffee Work
 
 ### Turn Hermes Agent into a command center for Codex, Kimi Code, Claude Code, OpenCode, Gemini CLI, and other local coding agents.
 
