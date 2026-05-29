@@ -123,6 +123,6 @@ rg -n "(/Users/|/home/|API_KEY|TOKEN|SECRET|PRIVATE|@)" .
 Review every match manually. Placeholders may be intentional; real secrets,
 private paths, and private account identifiers should not be committed.
 
-## License
+## Usage Notice
 
-MIT
+This repository is published for project demonstration purposes. No open-source license is granted unless separately stated in writing.
