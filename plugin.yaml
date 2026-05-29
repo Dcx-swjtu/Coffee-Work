@@ -1,8 +1,8 @@
 manifest_version: 1
-name: hermes-code-bridge
+name: coffee-work
 version: "1.0.0"
-description: "Hermes plugin wrapper for the hermes-code-bridge skill. Registers /code-bridge so users can load the skill workflow from any Hermes session, and ships SKILL.md for direct skill installation."
-author: "Hermes Code Bridge contributors"
+description: "Hermes plugin wrapper for the Coffee Work skill. Registers /coffee-work so users can coordinate local coding CLIs from any Hermes session, and ships SKILL.md for direct skill installation."
+author: "Coffee Work contributors"
 kind: standalone
 provides_commands:
-  - code-bridge
+  - coffee-work

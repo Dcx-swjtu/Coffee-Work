@@ -1,21 +1,21 @@
 ---
-name: hermes-code-bridge
+name: coffee-work
 description: "Use when connecting Hermes Agent to local coding CLIs such as Codex, Kimi Code, Claude Code, OpenCode, Gemini CLI, or other terminal-based coding assistants. Provides a general bridge workflow for discovering agents, reusing sessions, dispatching prompts, monitoring execution, collecting evidence, and reporting results without pretending Hermes did the delegated work."
 version: 1.0.0
-author: Hermes Agent
+author: Coffee Work contributors
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
   hermes:
-    tags: [hermes, coding-agents, cli, codex, kimi-code, claude-code, opencode, orchestration, tmux, dispatch]
+    tags: [coffee-work, hermes, coding-agents, cli, codex, kimi-code, claude-code, opencode, orchestration, tmux, dispatch]
     related_skills: [hermes-agent, cli-agent-orchestrator, codex, claude-code, opencode]
 ---
 
-# Hermes Code Bridge
+# Coffee Work
 
 ## Overview
 
-Hermes Code Bridge turns Hermes Agent into a control layer for local terminal-based coding agents. The goal is not to replace Codex, Kimi Code, Claude Code, OpenCode, Gemini CLI, or similar tools. The goal is to let Hermes coordinate them safely: choose the right tool, reuse the right session, send a precise task prompt, monitor the run, collect raw evidence, and report what actually happened.
+Coffee Work turns Hermes Agent into a control layer for local terminal-based coding agents. The goal is not to replace Codex, Kimi Code, Claude Code, OpenCode, Gemini CLI, or similar tools. The goal is to let Hermes coordinate them safely: choose the right tool, reuse the right session, send a precise task prompt, monitor the run, collect raw evidence, and report what actually happened.
 
 Use this skill when the user wants Hermes to connect to one or more local coding CLIs and make them do implementation, review, debugging, research, experiment management, documentation, or repository maintenance work.
 
@@ -31,7 +31,7 @@ User request
 
 Hermes is the control plane. Local coding CLIs are execution backends. The terminal, tmux, session archives, and output files are the transport and evidence layer.
 
-This is intentionally lighter than a full multi-agent workspace manager. Projects such as CCB (`claude_codex_bridge`) create visible tmux workspaces with configured panes, sidebars, team topology, worktrees, and inter-agent communication. Hermes Code Bridge is a Hermes skill: it does not require a new workspace system. It teaches Hermes how to drive whichever local coding CLIs are already installed, while preserving real sessions and verifiable outputs.
+This is intentionally lighter than a full multi-agent workspace manager. Projects such as CCB (`claude_codex_bridge`) create visible tmux workspaces with configured panes, sidebars, team topology, worktrees, and inter-agent communication. Coffee Work is a Hermes skill: it does not require a new workspace system. It teaches Hermes how to drive whichever local coding CLIs are already installed, while preserving real sessions and verifiable outputs.
 
 ## When to Use
 
@@ -548,7 +548,7 @@ A public skill should teach the workflow, not expose a particular user's workflo
 
 ## Relationship to Multi-Agent Workspace Tools
 
-Hermes Code Bridge can coexist with workspace tools such as CCB.
+Coffee Work can coexist with workspace tools such as CCB.
 
 Use a dedicated workspace tool when the user wants:
 
@@ -557,7 +557,7 @@ Use a dedicated workspace tool when the user wants:
 - Sidebar/status UI and inter-agent `/ask` routing.
 - Managed worktrees and pane recovery.
 
-Use Hermes Code Bridge when the user wants:
+Use Coffee Work when the user wants:
 
 - A lightweight Hermes skill for dispatching to installed CLIs.
 - One-shot or session-resume routing from Hermes conversations.

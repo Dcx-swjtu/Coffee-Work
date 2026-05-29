@@ -1,20 +1,20 @@
-"""Hermes Code Bridge plugin.
+"""Coffee Work plugin.
 
 This plugin intentionally stays lightweight: the real workflow lives in
-``skills/hermes-code-bridge/SKILL.md`` so it can also be installed as a normal
-Hermes skill. The plugin adds one convenience slash command, ``/code-bridge``,
-that injects a skill-loading instruction into the current Hermes session.
+``SKILL.md`` so it can also be installed as a normal Hermes skill. The plugin
+adds one convenience slash command, ``/coffee-work``, that injects a
+skill-loading instruction into the current Hermes session.
 """
 
 from __future__ import annotations
 
 from pathlib import Path
 
-_SKILL_NAME = "hermes-code-bridge"
+_SKILL_NAME = "coffee-work"
 _PLUGIN_DIR = Path(__file__).resolve().parent
 
 
-def _code_bridge_command(raw_args: str = "") -> str:
+def _coffee_work_command(raw_args: str = "") -> str:
     """Return a skill-loading instruction for Hermes to process."""
     user_request = (raw_args or "").strip()
     qualified = f"{_SKILL_NAME}:{_SKILL_NAME}"
@@ -31,17 +31,20 @@ def _code_bridge_command(raw_args: str = "") -> str:
 
 
 def register(ctx) -> None:
-    """Register the plugin skill and /code-bridge slash command."""
+    """Register the plugin skill and /coffee-work slash command."""
     ctx.register_skill(
         _SKILL_NAME,
-        _PLUGIN_DIR / "skills" / _SKILL_NAME / "SKILL.md",
-        description="Bridge Hermes Agent to local coding CLIs such as Codex, Kimi Code, Claude Code, OpenCode, and Gemini CLI.",
+        _PLUGIN_DIR / "SKILL.md",
+        description=(
+            "Coordinate local coding CLIs such as Codex, Kimi Code, "
+            "Claude Code, OpenCode, and Gemini CLI from Hermes."
+        ),
     )
     ctx.register_command(
-        "code-bridge",
-        handler=_code_bridge_command,
+        "coffee-work",
+        handler=_coffee_work_command,
         description=(
-            "Load Hermes Code Bridge for dispatching tasks to local coding CLIs "
+            "Load Coffee Work for dispatching tasks to local coding CLIs "
             "such as Codex, Kimi Code, Claude Code, OpenCode, and Gemini CLI."
         ),
         args_hint="[request]",
