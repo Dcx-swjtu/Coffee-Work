@@ -8,7 +8,7 @@ It gives Hermes a practical workflow for choosing the right backend, sending a
 scoped task prompt, monitoring execution, collecting evidence, and reporting
 commands, diffs, artifacts, tests, failures, and remaining risks.
 
-[中文说明](README_zh.md)
+(README_zh.md)
 
 ## Install
 
