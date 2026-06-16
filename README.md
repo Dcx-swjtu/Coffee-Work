@@ -18,6 +18,9 @@ Install the plugin from this repository:
 hermes plugins install https://github.com/Dcx-swjtu/Coffee-Work --enable
 ```
 
+If Hermes does not pick up the plugin immediately, see
+[after-install.md](after-install.md) for the manual enable and restart steps.
+
 Then use it inside Hermes:
 
 ```text
