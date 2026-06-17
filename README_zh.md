@@ -14,6 +14,9 @@ Coffee Work 是一个面向 Hermes 的插件和可复用 skill，用来协调 Co
 hermes plugins install https://github.com/Dcx-swjtu/Coffee-Work --enable
 ```
 
+如果 Hermes 没有立刻识别出插件，请参考
+[after-install.md](after-install.md) 里的手动启用与重启步骤。
+
 然后在 Hermes 里使用：
 
 ```text
