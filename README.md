@@ -12,7 +12,8 @@ commands, diffs, artifacts, tests, failures, and remaining risks.
 
 ## Install
 
-Install the plugin from this repository:
+Install the plugin wrapper from this repository to register the `/coffee-work`
+command in Hermes:
 
 ```bash
 hermes plugins install https://github.com/Dcx-swjtu/Coffee-Work --enable
@@ -27,7 +28,7 @@ Then use it inside Hermes:
 /coffee-work Use Codex to review my current diff. Read-only. Focus on bugs, security risks, and missing tests.
 ```
 
-If you only want the skill file:
+If you only want the reusable skill file and do not need the plugin command:
 
 ```bash
 hermes skills install https://raw.githubusercontent.com/Dcx-swjtu/Coffee-Work/main/SKILL.md --name coffee-work
