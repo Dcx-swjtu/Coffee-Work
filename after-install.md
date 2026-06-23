@@ -7,6 +7,9 @@ hermes plugins enable coffee-work
 hermes gateway restart   # gateway users only
 ```
 
+After Hermes comes back, confirm the command is registered by running `/coffee-work`
+or checking the available slash commands in your current Hermes session.
+
 Use it inside Hermes:
 
 ```text
