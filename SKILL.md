@@ -1,6 +1,11 @@
 ---
 name: coffee-work
-description: "Use when connecting Hermes Agent to local coding CLIs such as Codex, Kimi Code, Claude Code, OpenCode, Gemini CLI, or other terminal-based coding assistants. Provides a general bridge workflow for discovering agents, reusing sessions, dispatching prompts, monitoring execution, collecting evidence, and reporting results without pretending Hermes did the delegated work."
+description: >-
+  Use when connecting Hermes Agent to local coding CLIs such as Codex, Kimi Code,
+  Claude Code, OpenCode, Gemini CLI, or other terminal-based coding assistants.
+  Provides a general bridge workflow for discovering agents, reusing sessions,
+  dispatching prompts, monitoring execution, collecting evidence, and reporting
+  results without pretending Hermes did the delegated work.
 version: 1.0.0
 author: Coffee Work contributors
 license: proprietary
