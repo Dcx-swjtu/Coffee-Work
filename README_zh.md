@@ -23,7 +23,7 @@ hermes plugins install https://github.com/Dcx-swjtu/Coffee-Work --enable
 /coffee-work 用 Codex 审查我当前的 diff。只读，不要改文件。重点看 bug、安全风险和缺失的测试。
 ```
 
-如果只想安装 skill 文件：
+如果只想安装 skill 文件、不需要 `/coffee-work` 插件命令：
 
 ```bash
 hermes skills install https://raw.githubusercontent.com/Dcx-swjtu/Coffee-Work/main/SKILL.md --name coffee-work
